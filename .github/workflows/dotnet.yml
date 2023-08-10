@@ -28,8 +28,16 @@ jobs:
       run: dotnet publish ./FreeSR.Admin/FreeSR.Admin.csproj -c Release -o FreeSR_build
     - name: Build2
       run: dotnet publish ./FreeSR.Database.Account/FreeSR.Database.Account.csproj -c Release -o FreeSR_build
-
-    
+    - name: Build3
+      run: dotnet publish ./FreeSR.Database/FreeSR.FreeSR.Database.csproj -c Release -o FreeSR_build
+    - name: Build4
+      run: dotnet publish ./FreeSR.Dispatch/FreeSR.Dispatch.csproj -c Release -o FreeSR_build
+    - name: Build5
+      run: dotnet publish ./FreeSR.Admin/FreeSR.Admin.csproj -c Release -o FreeSR_build
+    - name: Build6
+      run: dotnet publish ./FreeSR.Shared/FreeSR.Shared.csproj -c Release -o FreeSR_build
+    - name: Build7
+      run: dotnet publish ./FreeSR.Tool.Proxy/FreeSR.Tool/Proxy.csproj -c Release -o FreeSR_build
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Upload build artifacts
