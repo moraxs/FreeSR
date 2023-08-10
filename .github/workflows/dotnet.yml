@@ -29,7 +29,7 @@ jobs:
     - name: Build2
       run: dotnet publish ./FreeSR.Database.Account/FreeSR.Database.Account.csproj -c Release -o FreeSR_build
     - name: Build3
-      run: dotnet publish ./FreeSR.Database/FreeSR.FreeSR.Database.csproj -c Release -o FreeSR_build
+      run: dotnet publish ./FreeSR.Gateserver/FreeSR.Gateserver.csproj -c Release -o FreeSR_build
     - name: Build4
       run: dotnet publish ./FreeSR.Dispatch/FreeSR.Dispatch.csproj -c Release -o FreeSR_build
     - name: Build5
