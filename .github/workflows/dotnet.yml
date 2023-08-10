@@ -37,7 +37,7 @@ jobs:
     - name: Build6
       run: dotnet publish ./FreeSR.Shared/FreeSR.Shared.csproj -c Release -o FreeSR_build
     - name: Build7
-      run: dotnet publish ./FreeSR.Tool.Proxy/FreeSR.Tool/Proxy.csproj -c Release -o FreeSR_build
+      run: dotnet publish ./FreeSR.Tool.Proxy/FreeSR.Tool.Proxy.csproj -c Release -o FreeSR_build
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Upload build artifacts
