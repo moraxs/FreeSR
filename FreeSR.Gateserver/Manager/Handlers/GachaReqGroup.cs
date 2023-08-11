@@ -53,7 +53,7 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1106,
+                                    ItemId = 1104,
                                     Num = 1,
                                 }
                             }[0],
@@ -92,7 +92,7 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1004,
                                     Num = 1,
                                 }
                             }[0],
@@ -117,7 +117,7 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1004,
                                     Num = 1,
                                 }
                             }[0],
@@ -142,7 +142,7 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1004,
                                     Num = 1,
                                 }
                             }[0],
@@ -167,7 +167,7 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1001,
                                     Num = 1,
                                 }
                             }[0],
