@@ -53,7 +53,7 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1107,
+                                    ItemId = 1106,
                                     Num = 1,
                                 }
                             }[0],
