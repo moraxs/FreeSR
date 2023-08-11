@@ -28,7 +28,7 @@
                         KKCFLEOACMD = new List<int>{1111, 1108, 1103},
                         BeginTime = 1689719400,
                         EndTime = 4070880000,
-                        GachaId = 2008
+                        GachaId = 2006
                     }
                 }
             });
