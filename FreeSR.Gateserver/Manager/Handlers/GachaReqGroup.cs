@@ -1,5 +1,5 @@
-﻿namespace FreeSR.Gateserver.Manager.Handlers
-{
+namespace FreeSR.Gateserver.Manager.Handlers
+
     using FreeSR.Gateserver.Manager.Handlers.Core;
     using FreeSR.Gateserver.Network;
     using FreeSR.Proto;
@@ -7,8 +7,6 @@
     using System.Collections.Generic;
     using System.Net.Http.Headers;
     using System.ComponentModel.Design;
-
-    using System;
 
 internal static class GachaReqGroup
 {
